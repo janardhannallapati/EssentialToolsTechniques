@@ -1,1 +1,27 @@
 
+List the certificates in the truststore
+
+ on Linux or Bash Shell on windows
+
+  keytool -list -keystore $JAVA_HOME/jre/lib/security/cacerts
+
+ on windows 
+
+  keytool -list -keystore %JAVA_HOME%\jre\lib\security\cacerts
+
+The default password is “changeit”.
+
+Add a certificate to the truststore
+Adding a certificate to the truststore is necessary if we want to trust a certificate issued 
+from a CA not present in the bundled truststore.
+
+
+keytool -import -v -trustcacerts -alias <domainname.com>  -file <certificate_name.crt> -keystore %JAVA_HOME%\jre\lib\security\cacerts -keypass changeit -storepass changeit
+
+If a certificate is not installed you will get 
+xception in thread "main" javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed:
+
+Sources 
+
+ https://stackoverflow.com/questions/9619030/resolving-javax-net-ssl-sslhandshakeexception-sun-security-validator-validatore?rq=1
+ 
