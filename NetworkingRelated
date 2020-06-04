@@ -1,0 +1,4 @@
+
+Telnet command in Windows Poweshell
+
+ > Test-NetConnection -ComputerName 10.8.19.14 -Port 8900 -InformationLevel Detailed
