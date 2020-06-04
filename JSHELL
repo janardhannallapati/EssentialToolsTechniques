@@ -14,7 +14,23 @@ JShell, you can also utilize the /env command to set the classpath.
 
 jshell> /env --class-path foo.jar
 
+
+CTRL-A - Move the cursor to the start of the current line
+CTRL-E - Move the cursor to the end of the current line
+ALT-F - Move forward a word
+ALT-B - Move backwards a word
+
+JShell utilizes JLine2 to power the command-line. It's a Java equivalent of GNU ReadLine that allows
+you to edit or navigate commands typed on your command-line. All modern shells such as Bash use it 
+(it's also why you can't type CTRL-V to paste into a shell)
+
 Sample JSHELL PROJECT 
 
 https://github.com/janardhannallapati/jshell
+
+
+source :
+
+https://www.infoq.com/articles/jshell-java-repl/
+
 
