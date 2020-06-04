@@ -24,4 +24,5 @@ xception in thread "main" javax.net.ssl.SSLHandshakeException: sun.security.vali
 Sources 
 
  https://stackoverflow.com/questions/9619030/resolving-javax-net-ssl-sslhandshakeexception-sun-security-validator-validatore?rq=1
+ https://medium.com/@codebyamir/the-java-developers-guide-to-ssl-certificates-b78142b3a0fc
  
