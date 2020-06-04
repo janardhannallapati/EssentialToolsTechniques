@@ -1,0 +1,20 @@
+When you're loading external libraries, having to type out the full classpath can be burdensome.
+You can instead change to the current directory of where all your external libraries are located 
+and start jshell from that directory, utilizing an asterisk (surrounded by quotes) to include all
+jars. This works on all OSes.
+
+$ jshell --class-path "*"
+
+The same command also works with paths. This also works on all OSes.
+
+$ jshell --class-path "libs/*"
+
+if you've already typed a number of commands but forgot to set the classpath when you started 
+JShell, you can also utilize the /env command to set the classpath.
+
+jshell> /env --class-path foo.jar
+
+Sample JSHELL PROJECT 
+
+https://github.com/janardhannallapati/jshell
+
