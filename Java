@@ -1,0 +1,9 @@
+Windows 
+javap -verbose MyClass | findstr "major"
+
+Linux
+$ javap -verbose MyClass | grep "major"
+
+Sources:
+
+https://fabianlee.org/2018/01/19/java-determining-the-java-version-used-to-compile-a-class-class-file-has-the-wrong-version/#:~:text=Determining%20major%20version,not%20have%20this%20utility%20available.
