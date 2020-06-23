@@ -1,0 +1,9 @@
+If you would like to use autocomplete all the time without having to worry about hitting Ctrl + Spacebar or your own keyboard shortcut, you can make the following adjustment in the Eclipse preferences to trigger autocomplete simply by typing several different characters:
+
+	1. Eclipse > Preferences > Java > Editor > Content Assist
+	2. Auto Activation > Auto activation triggers for Java
+	3. Enter all the characters you want to trigger autocomplete, such as the following:
+
+
+abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ._
+Now any time that you type any of these characters, Eclipse will trigger autocomplete suggestions based on the context.
