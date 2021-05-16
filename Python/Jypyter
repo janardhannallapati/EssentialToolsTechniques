@@ -1,0 +1,4 @@
+To install a new package in Jupyter 
+
+import sys
+!{sys.executable} -m pip install [package_name]
