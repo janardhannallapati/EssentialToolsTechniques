@@ -2,3 +2,13 @@ To install a new package in Jupyter
 
 import sys
 !{sys.executable} -m pip install [package_name]
+
+it's better to install packages using
+
+$ python -m pip install <package>
+
+rather than
+
+$ pip install <package>
+
+because the former is more explicit about where the package will be installed (more on this below).
