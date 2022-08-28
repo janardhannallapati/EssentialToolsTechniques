@@ -1,0 +1,8 @@
+Linux / Windows Sub System for Linux
+ 
+  > sudo apt install mysql-server
+ 
+Start Server 
+  > sudo /etc/init.d/mysql start
+ 
+ 
