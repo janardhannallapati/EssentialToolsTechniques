@@ -1,0 +1,14 @@
+Redis Commands 
+ starting redis server :
+  >redis-server.exe
+  
+ To connect to redis-client
+  >redis-cli.exe
+  
+ To List All keys stored in Redis
+  >keys *
+   
+ To delete all keys
+  >flushdb
+  
+  
