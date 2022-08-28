@@ -1,4 +1,8 @@
 
+To open the MySQL prompt, 
+ > sudo mysql
+
+
 To see what databases you have available, in the MySQL prompt, 
 > SHOW DATABASES;
 
