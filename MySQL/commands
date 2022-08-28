@@ -1,1 +1,9 @@
 
+To see what databases you have available, in the MySQL prompt, 
+> SHOW DATABASES;
+
+To create a new database,
+> CREATE DATABASE database_name;
+
+To delete a database,
+> DROP DATABASE database_name;
