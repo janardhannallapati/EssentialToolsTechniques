@@ -1,0 +1,16 @@
+On Linux/ Windows Subsytem for Linux 
+
+Installation 
+  
+   >sudo apt-get install redis
+
+
+Start server :
+
+ > sudo service redis-server start
+ 
+Start Redis-CLI
+ 
+ > redis-cli
+ 
+ 
