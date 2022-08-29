@@ -5,4 +5,14 @@ Linux / Windows Sub System for Linux
 Start Server 
   > sudo /etc/init.d/mysql start
  
+ WINDOWS 
+ 
+ To start the mysqld server from the command line, you should start a console window (or “DOS window”) and enter this command:
+
+ C :\> "C:\Program Files\MySQL\MySQL Server 8.0\bin\mysqld"
+ The path to mysqld may vary depending on the install location of MySQL on your system.
+m
+ You can stop the MySQL server by executing this command:
+
+ C:\> "C:\Program Files\MySQL\MySQL Server 8.0\bin\mysqladmin" -u root shutdown
  
