@@ -1,6 +1,6 @@
 # Rollback
 
-## how to rollback a rebase
+## How to rollback a rebase
 
 `$ git reflog`
 
