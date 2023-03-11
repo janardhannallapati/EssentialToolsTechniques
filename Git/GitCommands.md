@@ -30,6 +30,6 @@ $ git reset --hard origin/my-branch
 If you did do this while you had other unpushed commits, then you will have lost them. In that case just use
 the reflog approach above to jump back to the reflog entry where you made the commit(s).
 
-
-# To get a file from another branch into your current branch
+# Move files around
+## To get a file from another branch into your current branch
 git checkout branchname path_to_file_name
