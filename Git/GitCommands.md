@@ -18,7 +18,7 @@ To find the right place to reset to, you just pick the entry closest
 
 to top that doesn't start with "rebase".
 
-Alternative approach
+**Alternative approach**
 
 If the rebase is the only thing you have done on the branch, 
 
