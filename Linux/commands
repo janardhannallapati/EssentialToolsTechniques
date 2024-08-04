@@ -1,7 +1,7 @@
-To view the contents of a file with line numbers 
+-To view the contents of a file with line numbers 
 >cat -n /tmp/hello
 or 
-nl /tmp/hello
+>nl /tmp/hello
 
 
 To view only the first x lines from the beginning of a file.
@@ -14,4 +14,4 @@ To view only a specific number of bytes (characters) from the beginning of a fil
 To view only the last x files from the end of a file.
 >tail -n1 /tmp/hello
 
-t
+
