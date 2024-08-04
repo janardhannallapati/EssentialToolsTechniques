@@ -1,1 +1,2 @@
-
+To view contents of a file with line numbers 
+cat -n /tmp/hello
